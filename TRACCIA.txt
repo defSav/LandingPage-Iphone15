@@ -1,0 +1,55 @@
+Traccia:
+
+Definizione degli obiettivi del sito:
+creazione di una landing page per la promozione di uno smartphone,
+modello iPhone 15.
+
+Struttura HTML di base: 
+creare una struttura HTML base con le sezioni principale come la
+barra di navigazione, l'intestazione, il corpo e il piè di pagina.
+
+Contenuti:
+Immagini di un iPhone.
+
+Integrazione di Bootstrap: 
+utilizzare il framework Bootstrap per facilitare lo sviluppo del layout 
+e dei componenti del sito, come la barra di navigazione e i pulsanti.
+
+Creazione di stili personalizzati:
+utilizzare CSS per personalizzare l'aspetto del sito, ad esempio i colori, i margini e i 
+tipi di carattere. (Punti aggiuntivi)
+
+Contenuti e immagini:
+aggiungere i contenuti principali del sito, inclusi testi, immagini e eventuali
+altri elementi multimediali.
+
+Ottimizzazione per dispositivi mobili: 
+assicurarsi che il sito sia responsive utilizzando classi Bootstrap per adattare 
+il layout e i contenuti ai diversi dispositivi e dimensioni dello schermo.
+
+Creazione, all'interno della stessa pagina, di un form di contatto, introdotto dalla 
+frase "Iscriviti alla newsletter inserendo i tuoi dati per ottenere un codice sconto del 10% "
+in cui inserire nome, cognome, email e numero di telefono.
+Verificare (in un modo a tua scelta) che i campi siano validi con le seguenti regole:
+- Nome e congnome: almeno 1 carattere.
+- Numero di telefono: almeno 8 cifre (bonus: verificare che siano tutti numeri, al massimo
+ puo' contenere il carattere "+" per il prefisso.
+- Email: deve contenere il carattere "@" e un carattere "."
+
+Qualora il form non sia valido (anche uno solo dei campi sia in uno stato invalido), mostrare un 
+unico messaggio di errore a tua scelta (per esempio, "Controlla di aver inserito correttamente i tuoi dati e 
+riprova.")
+
+Al submit del form:
+- Stampare i dati inseriti, sotto forma di oggetto.
+- Sulla base dei dati inseriti, stampare in console un codice sconto del 10% sull'acquisto dello 
+ smartphone, costruito come segue: sulla base della data odierna, inserito in maiuscolo, "10",
+ per esempio 20240409ROSSI10, con la seguente frase: "Grazie per aver inserito i tuoi dati. Ecco il
+ tuo codice sconto: 20240409ROSSI10.
+- Resettare il form,svuotandone i campi.
+
+Creare inoltre un secondo bottone legato ad una funzione che estragga, da un set di n partecipanti 
+al concorso, il fortunato vincitore di un iPhone 15. Testare la funzione con array di oggetti (ogni oggetto
+deve essere coerente con i campi del form). Stampare in console nome e cognome del vincitore con la seguente frase:
+"Complimenti, Mario Rossi! Hai vinto un iPhone 15!".
+Note: puoi utilizzare sia javascript che jquery.	
